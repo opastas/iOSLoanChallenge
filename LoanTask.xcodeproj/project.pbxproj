@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531112A02BA8778000CFA1F8 /* LoanMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311129F2BA8778000CFA1F8 /* LoanMenuView.swift */; };
+		531112A22BA88D2D00CFA1F8 /* LoanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531112A12BA88D2D00CFA1F8 /* LoanDetailView.swift */; };
+		53141D122BA73D81005C7640 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53141D112BA73D81005C7640 /* MenuItem.swift */; };
+		53141D142BA78E88005C7640 /* MenuItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53141D132BA78E88005C7640 /* MenuItemCard.swift */; };
+		53165CF52BA65B560051AC18 /* LoanProjectDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53165CF42BA65B560051AC18 /* LoanProjectDetailCard.swift */; };
+		53ABAE1F2BA42DEB00956C7A /* details.json in Resources */ = {isa = PBXBuildFile; fileRef = 53ABAE1E2BA42DEB00956C7A /* details.json */; };
+		53ABAE212BA47B4900956C7A /* LoadTaskProjectDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ABAE202BA47B4900956C7A /* LoadTaskProjectDataManager.swift */; };
+		53ABAE232BA47DB800956C7A /* LoanProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ABAE222BA47DB800956C7A /* LoanProject.swift */; };
+		CE876864267772CD0045606B /* LoanTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE876863267772CD0045606B /* LoanTaskApp.swift */; };
+		CE876868267772CE0045606B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE876867267772CE0045606B /* Assets.xcassets */; };
+		CE87686B267772CE0045606B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE87686A267772CE0045606B /* Preview Assets.xcassets */; };
+		CEAAAAA026896B5D0031C294 /* Snowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAAA9F26896B5D0031C294 /* Snowflake.swift */; };
+		CEC94D73268D664A003F940D /* ProjectProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC94D72268D664A003F940D /* ProjectProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5311129F2BA8778000CFA1F8 /* LoanMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanMenuView.swift; sourceTree = "<group>"; };
+		531112A12BA88D2D00CFA1F8 /* LoanDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanDetailView.swift; sourceTree = "<group>"; };
+		53141D112BA73D81005C7640 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		53141D132BA78E88005C7640 /* MenuItemCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCard.swift; sourceTree = "<group>"; };
+		53165CF42BA65B560051AC18 /* LoanProjectDetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanProjectDetailCard.swift; sourceTree = "<group>"; };
+		53ABAE1E2BA42DEB00956C7A /* details.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = details.json; sourceTree = "<group>"; };
+		53ABAE202BA47B4900956C7A /* LoadTaskProjectDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadTaskProjectDataManager.swift; sourceTree = "<group>"; };
+		53ABAE222BA47DB800956C7A /* LoanProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanProject.swift; sourceTree = "<group>"; };
+		CE876860267772CD0045606B /* LoanTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE876863267772CD0045606B /* LoanTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanTaskApp.swift; sourceTree = "<group>"; };
+		CE876867267772CE0045606B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE87686A267772CE0045606B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE87686C267772CE0045606B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAAAA9F26896B5D0031C294 /* Snowflake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Snowflake.swift; path = Models/Snowflake.swift; sourceTree = "<group>"; };
+		CEC94D72268D664A003F940D /* ProjectProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE87685D267772CD0045606B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE0E8DE1268420AD0061569D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53141D112BA73D81005C7640 /* MenuItem.swift */,
+				53ABAE222BA47DB800956C7A /* LoanProject.swift */,
+				53ABAE202BA47B4900956C7A /* LoadTaskProjectDataManager.swift */,
+				53ABAE1E2BA42DEB00956C7A /* details.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE876857267772CD0045606B = {
+			isa = PBXGroup;
+			children = (
+				CE876862267772CD0045606B /* LoanTask */,
+				CE876861267772CD0045606B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE876861267772CD0045606B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE876860267772CD0045606B /* LoanTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE876862267772CD0045606B /* LoanTask */ = {
+			isa = PBXGroup;
+			children = (
+				531112A12BA88D2D00CFA1F8 /* LoanDetailView.swift */,
+				5311129F2BA8778000CFA1F8 /* LoanMenuView.swift */,
+				53141D132BA78E88005C7640 /* MenuItemCard.swift */,
+				53165CF42BA65B560051AC18 /* LoanProjectDetailCard.swift */,
+				CE876863267772CD0045606B /* LoanTaskApp.swift */,
+				CEAAAA9F26896B5D0031C294 /* Snowflake.swift */,
+				CEC94D72268D664A003F940D /* ProjectProgressView.swift */,
+				CE0E8DE1268420AD0061569D /* Models */,
+				CE876867267772CE0045606B /* Assets.xcassets */,
+				CE87686C267772CE0045606B /* Info.plist */,
+				CE876869267772CE0045606B /* Preview Content */,
+			);
+			path = LoanTask;
+			sourceTree = "<group>";
+		};
+		CE876869267772CE0045606B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE87686A267772CE0045606B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE87685F267772CD0045606B /* LoanTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE87686F267772CE0045606B /* Build configuration list for PBXNativeTarget "LoanTask" */;
+			buildPhases = (
+				CE87685C267772CD0045606B /* Sources */,
+				CE87685D267772CD0045606B /* Frameworks */,
+				CE87685E267772CD0045606B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoanTask;
+			productName = RenoTracker;
+			productReference = CE876860267772CD0045606B /* LoanTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE876858267772CD0045606B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CE87685F267772CD0045606B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = CE87685B267772CD0045606B /* Build configuration list for PBXProject "LoanTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE876857267772CD0045606B;
+			productRefGroup = CE876861267772CD0045606B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE87685F267772CD0045606B /* LoanTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE87685E267772CD0045606B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE87686B267772CE0045606B /* Preview Assets.xcassets in Resources */,
+				53ABAE1F2BA42DEB00956C7A /* details.json in Resources */,
+				CE876868267772CE0045606B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE87685C267772CD0045606B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53165CF52BA65B560051AC18 /* LoanProjectDetailCard.swift in Sources */,
+				53ABAE232BA47DB800956C7A /* LoanProject.swift in Sources */,
+				53ABAE212BA47B4900956C7A /* LoadTaskProjectDataManager.swift in Sources */,
+				CEC94D73268D664A003F940D /* ProjectProgressView.swift in Sources */,
+				CE876864267772CD0045606B /* LoanTaskApp.swift in Sources */,
+				53141D142BA78E88005C7640 /* MenuItemCard.swift in Sources */,
+				531112A02BA8778000CFA1F8 /* LoanMenuView.swift in Sources */,
+				CEAAAAA026896B5D0031C294 /* Snowflake.swift in Sources */,
+				531112A22BA88D2D00CFA1F8 /* LoanDetailView.swift in Sources */,
+				53141D122BA73D81005C7640 /* MenuItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE87686D267772CE0045606B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor\n\n//:configuration = Release\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor\n\n//:completeSettings = some\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME\n//:configuration = Debug\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor\n\n//:configuration = Release\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor\n\n//:completeSettings = some\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME\n";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"LoanTask/Preview Content\"";
+				DEVELOPMENT_TEAM = WYQCFWM23S;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/LoanTask/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LoanTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE87686E267772CE0045606B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor\n\n//:configuration = Release\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor\n\n//:completeSettings = some\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME\n//:configuration = Debug\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor\n\n//:configuration = Release\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor\n\n//:completeSettings = some\nASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME\n";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"LoanTask/Preview Content\"";
+				DEVELOPMENT_TEAM = WYQCFWM23S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/LoanTask/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LoanTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE876870267772CE0045606B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LoanTask/Preview Content\"";
+				DEVELOPMENT_TEAM = WYQCFWM23S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/LoanTask/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LoanTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE876871267772CE0045606B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LoanTask/Preview Content\"";
+				DEVELOPMENT_TEAM = WYQCFWM23S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/LoanTask/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LoanTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE87685B267772CD0045606B /* Build configuration list for PBXProject "LoanTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE87686D267772CE0045606B /* Debug */,
+				CE87686E267772CE0045606B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE87686F267772CE0045606B /* Build configuration list for PBXNativeTarget "LoanTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE876870267772CE0045606B /* Debug */,
+				CE876871267772CE0045606B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE876858267772CD0045606B /* Project object */;
+}
